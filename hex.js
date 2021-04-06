@@ -4,7 +4,7 @@ const btn = document.getElementById("btn");
 const container = document.getElementById("color_hex");
 
 btn.addEventListener("click", function () {
-
+  console.log(btn);
   let hexColor = "#";
   for (let i = 0; i < 6; i++) {
     hexColor += hex[randomColor()];
