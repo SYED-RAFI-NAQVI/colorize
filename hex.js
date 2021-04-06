@@ -2,14 +2,16 @@ const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
 
 const btn = document.getElementById("btn");
 const container = document.getElementById("color_hex");
+const title = document.getElementById("title");
 
 btn.addEventListener("click", function () {
-  console.log(btn);
   let hexColor = "#";
   for (let i = 0; i < 6; i++) {
     hexColor += hex[randomColor()];
   }
-  color_hex.textContent = hexColor;
+  container.textContent = hexColor;
+  //   container.style.color = hexColor;
+  title.style.color = "#ffffff";
   document.body.style.backgroundColor = hexColor;
 });
 
