@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Luckiest+Guy&family=Patrick+Hand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 62px;
+  font-family: "Lobster", cursive;
+  letter-spacing: 0.6px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+  flex-direction: column;
+  background-color: black;
+  padding: 30px;
+}
+
+p {
+  font-size: 54px;
+  font-family: "Luckiest Guy", cursive;
+  color: white;
+}
+
+.btn {
+  font-size: 24px;
+  border-radius: 10px;
+  margin-top: 2em;
+  padding: 10px;
+  outline: none;
+}
+
+.btn:active {
+  transform: translateY(4px);
+}
